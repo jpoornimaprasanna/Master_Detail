@@ -1,0 +1,25 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+	<Dialog id="helloDialog" 
+	title="Successfully saved">
+		<f:SimpleForm >
+			<f:content>
+				<Label text="Name"/>
+				<Text text="{data1>/oForm/name}" />
+			
+				<Label text="Street/No."/>
+				<Text text="{data1>/oForm/street}" />
+				
+				<Label text="ZIP Code/City"/>
+				<Text text="{data1>/oForm/zip}" />
+					
+			
+				<Label text="Country"/>
+				<Text text="{data1>/oForm/country}" />
+					
+			</f:content>
+		</f:SimpleForm>
+		<beginButton>
+				<Button press="popup" text="OK"/>
+		</beginButton>
+	</Dialog>
+</core:FragmentDefinition>

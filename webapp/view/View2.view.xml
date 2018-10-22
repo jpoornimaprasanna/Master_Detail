@@ -1,0 +1,37 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="demo.Masterdetails.controller.View2"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<App>
+		<pages>
+			<Page title="Title">
+				<content>
+					<f:SimpleForm editable="true">
+						<f:content>
+							<Label text="Name"/>
+							<Input placeholder="Enter Your Name" value="" width="400px" id="name"/>
+							<Label text="Street/No."/>
+							<Input placeholder="Enter Your Street/No." value="" width="400px" id="streetNo"/>
+							<Label text="ZIP Code/City"/>
+							<Input placeholder="Enter Your ZIP Code/Citye" value="" width="400px" id="zip"/>
+							<Label text="Country"/>
+							<Input placeholder="Enter Your Country" value="" width="400px" id="country"/>
+							<Label text="id"/>
+							<Input placeholder="Enter Your Employee Id" value="" width="400px" id="empId"/>
+							<Label text="currency"/>
+							<Input placeholder="Enter Your Currency" value="" width="400px" id="currency"/>
+							<Label text="salary"/>
+							<Input placeholder="Enter Your Salary" value="" width="400px" id="salary"/>
+							<ToolbarSpacer/>
+						</f:content>
+					</f:SimpleForm>
+				</content>
+				<footer>
+					<Toolbar>
+						<Button text="Add" type="Accept" press="empAdded"/>
+						<Button text="Back" type="Reject" press="noEmpAdded"/>
+						<Button text="Reset" press="reset"/>
+					</Toolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
