@@ -31,7 +31,7 @@
 					<Page>
 						<IconTabBar selectedKey="__filter0" id="bar0">
 							<items>
-								<IconTabFilter text="Personal Details" icon="sap-icon://employee" iconColor="Positive" id="filter1">
+								<IconTabFilter text="Personal" icon="sap-icon://employee" iconColor="Positive" id="filter1">
 									<f:SimpleForm id="SimpleFormDisplay354" editable="true" layout="ResponsiveGridLayout" title="Address" labelSpanXL="3" labelSpanL="3"
 										labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1"
 										columnsL="1" columnsM="1" singleContainerFullSize="false">
