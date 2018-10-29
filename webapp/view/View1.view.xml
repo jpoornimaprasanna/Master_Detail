@@ -8,12 +8,12 @@
 					<Page title="Master Page">
 						<content>
 							<SearchField liveChange="onSearch"/>
-							<List id="list1" items="{path: 'data1>/details', sorter:{path:'name'} }" itemPress="item" updateFinished="defaultDisplay">
+							<List  id="list1" items="{path: 'data1>/details', sorter:{path:'name'} }" itemPress="item" updateFinished="defaultDisplay">
 								<items>
 									<ObjectListItem title="{data1>name}" number="{data1>salary}" type="Active" numberState="{= ${data1>salary} > 50000 ? 'Success' : 'Error' }"
 										numberUnit="{data1>currency}">
 										<attributes>
-											<ObjectAttribute text=""/>
+											<ObjectAttribute title="pp"/>
 										</attributes>
 									</ObjectListItem>
 								</items>
