@@ -24,7 +24,7 @@
 						</f:content>
 					</f:SimpleForm>
 				</content>
-				<footer>
+				<footer> 
 					<Toolbar>
 						<Button text="Add" type="Accept" press="empAdded"/>
 						<Button text="Back" type="Reject" press="noEmpAdded"/>
